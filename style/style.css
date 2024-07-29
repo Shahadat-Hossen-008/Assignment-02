@@ -182,6 +182,7 @@ ul{
     background: rgb(34, 34, 34);
     align-items: center;
     justify-content: space-between;
+    gap: 150px;
 }
 .run-extra-text-sec{
     padding-left: 54px;
@@ -192,7 +193,40 @@ ul{
     margin-top: 34px;
 }
 .run-extra-mile-sec img{
-    width: 30%;
+    width: 40%;
     border-radius: 60px;
     padding: 30px;
 }
+/* end extra mile section */
+
+/* our service start */
+.our-services{
+    flex-direction: column;
+    text-align: center;
+}
+.our-services-text .our-service-tittle{
+    color: rgb(230, 83, 60);
+    font-size: 2.35rem;
+}
+.services-card-sec {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.services-card-sec .service-card-program{
+    background-color: rgba(138, 138, 138, 0.1);
+    border-radius: 18px;
+    margin-top: 40px;
+    padding: 20px;
+}
+.service-card-program img{
+    width: 90%;
+    border-radius: 18px;
+    padding: 10px ;
+}
+.service-card-program .services-card-heading{
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
