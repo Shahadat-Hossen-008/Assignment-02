@@ -33,14 +33,13 @@ a{
     border: none;
 }
 .container{
-    width: 90%;
+    max-width: 90%;
     margin: 4rem auto;
 
 }
 
 /* Heading section */
 .heading-section{
-    max-width: 1440px;
     background: linear-gradient(to top,rgb(17, 17, 17),rgba(120, 119, 119,0));
 }
 /* nav section */
@@ -112,7 +111,7 @@ ul{
     gap: 8px;
     position: absolute;
     top: 558px;
-    right: 400px;
+    right: 320px;
     cursor: pointer;
 }
 .video-tutorial .video-tutorial-num{
@@ -135,7 +134,7 @@ ul{
     background: rgba(255, 255, 255, 0.1);
     position: absolute;
     top: 275px;
-    right: 50px;
+    right: 0px;
 }
 .free-workout .free-workout-num{
     font-size: 2.3rem;
