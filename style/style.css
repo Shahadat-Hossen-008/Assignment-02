@@ -25,7 +25,7 @@ a{
     font-weight: 900;
     margin-bottom: 14px;
 }
-.paragraph-tittle{
+th, td, input, select, .paragraph-tittle{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
@@ -228,5 +228,63 @@ ul{
     color: white;
     font-size: 1.3rem;
     margin-bottom: 10px;
+}
+/* our service end */
+
+/* BMI calculate */
+.bmi-bold-heading{
+    text-align: center;
+}
+.bmi-calculate{
+    background-color: rgb(34, 34, 34);
+}
+.bmi-calculate-sec .bmi-heading-tittle{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 14px;
+
+}
+.bmi-calculate-sec{
+    justify-content: space-between;
+    gap: 175px;
+}
+.bmi-calculate-sec table, tr,td,th{
+    border: 1px solid
+    rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px 68px 15px 18px;
+    margin-top: 36px;
+    margin-bottom: 100px;
+}
+.calculate-your-bmi{
+    width: 577px;
+}
+ .click-button{
+    border-radius: 42px;
+    padding: 16px 40px;
+    margin-top: 34px;
+    margin-bottom: 50px;
+}
+.input-section{
+    margin-top: 34px;
+}
+.calculate-your-bmi .first-input-sec, .second-input-sec, .third-input-sec{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+.third-input-sec{
+    grid-template-columns: 2fr;
+}
+.calculate-your-bmi form input, select{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 12px 40px;
 }
 
