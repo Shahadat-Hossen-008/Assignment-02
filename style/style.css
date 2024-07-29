@@ -19,11 +19,17 @@ a{
 .two-column-section{
     display: flex;
 }
+.heading-tittle{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
 .paragraph-tittle{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 20px;
     letter-spacing: 0.5px;
 }
 .btn-primary{
@@ -31,6 +37,7 @@ a{
     color: white;
     font-size: 1.25rem;
     border: none;
+    cursor: pointer;
 }
 .container{
     max-width: 90%;
@@ -40,7 +47,8 @@ a{
 
 /* Heading section */
 .heading-section{
-    background: linear-gradient(to top,rgb(17, 17, 17),rgba(120, 119, 119,0));
+    background: linear-gradient(to bottom, rgb(17, 17, 17,0.1),rgba(119, 119, 119, 0.1) 100%);
+
 }
 /* nav section */
 .logo-section{
@@ -111,7 +119,7 @@ ul{
     gap: 8px;
     position: absolute;
     top: 558px;
-    right: 320px;
+    right: 340px;
     cursor: pointer;
 }
 .video-tutorial .video-tutorial-num{
@@ -134,7 +142,7 @@ ul{
     background: rgba(255, 255, 255, 0.1);
     position: absolute;
     top: 275px;
-    right: 0px;
+    right: 10px;
 }
 .free-workout .free-workout-num{
     font-size: 2.3rem;
@@ -142,3 +150,27 @@ ul{
     font-weight: 900;
 }
 /* End heading section */
+
+/*Change your habit section  */
+.change-your-habit{
+    flex-direction: column;
+    text-align: center;
+}
+.habit-section-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 50px;
+}
+.habit-section-img .change-habit-img img{
+    width: 60%;
+    border-radius: 50%;
+    gap: 40px;
+}
+.change-habit-img .img-heading-sec
+{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
