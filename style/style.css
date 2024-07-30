@@ -42,6 +42,10 @@ th, td, input, select, .paragraph-tittle{
     margin: 4rem auto;
 
 }
+.our-feature-heading, .our-service-tittle{
+    color: rgb(230, 83, 60);
+    font-size: 2.35rem;
+}
 .meet-our-img-sec, .fit-and-fabulous-card{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -225,15 +229,51 @@ ul{
 }
 /* end extra mile section */
 
+/* our feature section  */
+.our-feature-heading{
+  text-align: center;
+  margin-bottom: 50px;  
+}
+.our-feature-sec{
+    justify-content: space-between;
+    gap: 60px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+}
+.our-feature-left-sec{
+    padding: 20px;
+}
+.our-feature-left-sec .our-feature-left-heading{
+    font-size: 1.5rem;
+    color:rgb(230, 83, 60);
+    margin-bottom: 20px;
+}
+.our-feature-left-sec img{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 18px;
+}
+.our-feature-right-sec{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.our-feature-logo-card img{
+    width: 20%;
+}
+.our-feature-logo-text .our-feature-logo-heading{
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /* our service start */
 .our-services{
     flex-direction: column;
     text-align: center;
 }
-.our-services-text .our-service-tittle{
-    color: rgb(230, 83, 60);
-    font-size: 2.35rem;
-}
+
 .services-card-sec {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -340,3 +380,4 @@ ul{
     top: 80%;
     left: 8%;
 }
+/* meet our team end */
