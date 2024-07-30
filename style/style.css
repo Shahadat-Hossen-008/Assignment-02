@@ -42,6 +42,15 @@ th, td, input, select, .paragraph-tittle{
     margin: 4rem auto;
 
 }
+.meet-our-img-sec, .fit-and-fabulous-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-top: 58px;
+}
 
 /* Heading section */
 .heading-section{
@@ -50,7 +59,7 @@ th, td, input, select, .paragraph-tittle{
 }
 /* nav section */
 .logo-section{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color:rgb(230, 83, 60) ;
     font-style: italic;
 }
@@ -141,7 +150,7 @@ ul{
     background: rgba(255, 255, 255, 0.1);
     position: absolute;
     top: 275px;
-    right: 10px;
+    right: 30px;
 }
 .free-workout .free-workout-num{
     font-size: 2.3rem;
@@ -149,6 +158,24 @@ ul{
     font-weight: 900;
 }
 /* End heading section */
+
+/* Fit and fabulous */
+.fit-and-fabulous-card{
+    background-color: rgb(54, 54, 53);
+}
+.fit-and-fabulous-sec h3{
+    text-align: center;
+}
+.fit-and-fabu-card-item img{
+    width: 100%;
+    border-radius: 18px;
+}
+.fit-and-fabu-card-item h5{
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
 
 /*Change your habit section  */
 .change-your-habit{
@@ -248,7 +275,7 @@ ul{
 }
 .bmi-calculate-sec{
     justify-content: space-between;
-    gap: 175px;
+    gap: 170px;
 }
 .bmi-calculate-sec table, tr,td,th{
     border: 1px solid
@@ -262,7 +289,7 @@ ul{
 .calculate-your-bmi{
     width: 577px;
 }
- .click-button{
+ .click-button-bmi{
     border-radius: 42px;
     padding: 16px 40px;
     margin-top: 34px;
@@ -286,4 +313,30 @@ ul{
     border: none;
     padding: 12px 40px;
 }
+/* BMI section end */
 
+/* Meet our team */
+.meet-our-team{
+    flex-direction: column;
+}
+.meet-our-team .meet-our-team-text{
+    text-align: center;
+}
+
+.meet-our-img-sec .meet-our-img-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+.meet-our-img-card{
+    position: relative;
+}
+.meet-img-description .meet-img-des-heading{
+    font-size: 1.25rem;
+    color: white;
+}
+.meet-our-img-sec .meet-img-description{
+    position: absolute;
+    top: 80%;
+    left: 8%;
+}
