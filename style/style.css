@@ -29,8 +29,6 @@ th, td, input, select, .paragraph-tittle{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.5px;
 }
 .btn-primary{
     background-color: rgb(230, 83, 60);
@@ -52,12 +50,13 @@ th, td, input, select, .paragraph-tittle{
 }
 /* nav section */
 .logo-section{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color:rgb(230, 83, 60) ;
     font-style: italic;
 }
 .nav-section{
     justify-content: space-between;
+    align-items: center;
 }
 ul{
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -73,7 +72,7 @@ ul{
     color: white;
     font-size: 1.25rem;
 }
-.nav-link .click-button{
+.nav-link .click-button-nav{
     padding: 8px 20px;
     border-radius: 42px;
 }
