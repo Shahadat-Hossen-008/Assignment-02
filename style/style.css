@@ -166,6 +166,7 @@ th, td, input, select, .paragraph-tittle{
 /* Fit and fabulous */
 .fit-and-fabulous-card{
     background-color: rgb(54, 54, 53);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .fit-and-fabulous-sec h3{
     text-align: center;
@@ -214,6 +215,7 @@ th, td, input, select, .paragraph-tittle{
     align-items: center;
     justify-content: space-between;
     gap: 150px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .run-extra-text-sec{
     padding-left: 54px;
@@ -240,6 +242,7 @@ th, td, input, select, .paragraph-tittle{
     gap: 60px;
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .our-feature-left-sec{
     padding: 20px;
@@ -285,6 +288,7 @@ th, td, input, select, .paragraph-tittle{
     border-radius: 18px;
     margin-top: 40px;
     padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .service-card-program img{
     width: 90%;
@@ -402,15 +406,17 @@ th, td, input, select, .paragraph-tittle{
 .become-full-member .get-membership-card{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 30px;
+    gap: 30px; 
     text-align: center;
 }
 .get-membership-card .membership-card-info{
     background-color: rgb(41, 41, 40);
     padding: 30px;
     margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
+
 .membership-card-info .membership-card-headin-info{
     color: white;
     margin-top: 10px;
@@ -443,3 +449,42 @@ th, td, input, select, .paragraph-tittle{
     transition: 0.3s;
 }
 /* Become membership end */
+
+/* Footer section */
+.footer-section{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+}
+.footer-sub-section .footer-logo-heading{
+    color: rgb(230, 83, 60);
+    font-size: 3.2rem;
+    font-style: italic;
+    font-weight: 800;
+    margin-bottom: 20px ;
+}
+.footer-sub-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 80px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+.footer-sub-info{
+    margin-bottom: 60px;
+}
+.footer-sub-info-head{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer-list-item{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.35rem;
+    margin-bottom: 20px;
+}
+.footer-paragraph-tittle{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.35rem;
+    text-align: center;
+}
