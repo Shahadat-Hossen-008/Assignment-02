@@ -403,6 +403,7 @@ th, td, input, select, .paragraph-tittle{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
+    text-align: center;
 }
 .get-membership-card .membership-card-info{
     background-color: rgb(41, 41, 40);
@@ -415,25 +416,26 @@ th, td, input, select, .paragraph-tittle{
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 1.5rem;    
+    text-align: left;
 }
 .membership-card-info .membership-card-para-info{
     color: rgb(230, 83, 60);
     font-size: 1.25rem;
     margin-bottom: 10px;
+    text-align: left;
 }
 .membership-card-info .membership-card-list-details{
     list-style: none;
     color: white;
     font-size: 1.25rem;
     padding: 10px;
+    text-align: left;
 }
 .membership-card-info .membership-card-list-details .fa-check{
   margin-right: 5px;
 }
 .membership-card-info .choose-packages{
     padding: 16px 20px;
-    text-align: center;
-    margin-left: 100px;
     margin-top: 20px;
 }
 .membership-card-info .choose-packages:hover{
