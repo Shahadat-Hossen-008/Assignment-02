@@ -526,6 +526,9 @@ th, td, input, select, .paragraph-tittle{
     .responsive-button{
        display: none;
     }
+    .banner-button{
+        padding: 12px 26px;
+    }
     .video-tutorial-num{
         font-size: 1.35rem;
     }
@@ -543,4 +546,18 @@ th, td, input, select, .paragraph-tittle{
         padding: 12px 18px;
     }
 
+    /* fit and fabulous  */
+    .fit-and-fabulous-heading{
+        margin-bottom: 0;
+    }
+    .fit-and-fabulous-card{
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* change your habit */
+    .habit-section-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .change-habit-img{
+        margin-bottom: 30px;
+    }
 }
