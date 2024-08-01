@@ -42,14 +42,14 @@ th, td, input, select, .paragraph-tittle{
     margin: 4rem auto;
 
 }
-.our-feature-heading, .our-service-tittle{
+.our-feature-heading, .our-service-tittle, .our-feature-left-heading, .become-member-heading{
     color: rgb(230, 83, 60);
     font-size: 2.35rem;
 }
 .meet-our-img-sec, .fit-and-fabulous-card{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+    gap: 30px;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
@@ -71,7 +71,7 @@ th, td, input, select, .paragraph-tittle{
     justify-content: space-between;
     align-items: center;
 }
-ul{
+.nav-section-list{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     align-items: center;
@@ -172,6 +172,7 @@ ul{
 }
 .fit-and-fabu-card-item img{
     width: 100%;
+    height: 90%;
     border-radius: 18px;
 }
 .fit-and-fabu-card-item h5{
@@ -381,3 +382,62 @@ ul{
     left: 8%;
 }
 /* meet our team end */
+/* Become our member */
+.become-membership-info{
+    text-align: center;
+}
+.become-full-member .become-membership-second-head{
+  font-size: 2rem;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.become-membership-info .become-member-third-heading{
+    color: rgb(230, 83, 60);
+    font-size: 1.4rem;    
+}
+.become-full-member .become-member-heading{
+    margin-bottom: 15px ;
+}
+.become-full-member .get-membership-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.get-membership-card .membership-card-info{
+    background-color: rgb(41, 41, 40);
+    padding: 30px;
+    margin-top: 30px;
+
+}
+.membership-card-info .membership-card-headin-info{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;    
+}
+.membership-card-info .membership-card-para-info{
+    color: rgb(230, 83, 60);
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+.membership-card-info .membership-card-list-details{
+    list-style: none;
+    color: white;
+    font-size: 1.25rem;
+    padding: 10px;
+}
+.membership-card-info .membership-card-list-details .fa-check{
+  margin-right: 5px;
+}
+.membership-card-info .choose-packages{
+    padding: 16px 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.membership-card-info .choose-packages:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+/* Become membership end */
