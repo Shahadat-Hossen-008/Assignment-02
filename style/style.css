@@ -223,7 +223,7 @@ th, td, input, select, .paragraph-tittle{
     border-radius: 42px;
     margin-top: 34px;
 }
-.run-extra-mile-sec img{
+ .run-extra-img-sec{
     width: 50%;
     border-radius: 60px;
     padding: 30px;
@@ -559,5 +559,25 @@ th, td, input, select, .paragraph-tittle{
     }
     .change-habit-img{
         margin-bottom: 30px;
+    }
+    .run-extra-mile-sec{
+        flex-direction: column;
+        gap: 0;
+    }
+    .extra-run-anchore{
+        display: flex;
+        justify-content: center;
+    }
+    .run-extra-text-sec{
+        padding: 22px;
+    }
+    .run-extra-img-sec{
+        width: 80%;
+        padding: 0;
+        border-radius: 16px;
+        padding-bottom: 20px;
+    }
+    .our-feature-sec{
+        flex-direction: column;
     }
 }
