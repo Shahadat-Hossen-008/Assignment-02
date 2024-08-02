@@ -101,6 +101,7 @@ th, td, input, select, .paragraph-tittle{
     font-size: 4.5rem;
     font-weight: 900;
     margin-bottom: 28px;
+    line-height: 130%;
 }
 .heading-italic{
     font-family: designFont;
@@ -547,7 +548,7 @@ th, td, input, select, .paragraph-tittle{
         font-size: 1.4rem;
     }
     .free-workout{
-        top: 680px;
+        top: 697px;
         right: 0;
         padding: 10px 14px;
     }
