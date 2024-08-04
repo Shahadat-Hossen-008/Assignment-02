@@ -551,7 +551,7 @@ th, td, input, select, .paragraph-tittle{
     }
     .free-workout{
         top: 560px;
-        right: 30px;
+        right: 20px;
         padding: 10px 14px;
     }
 
@@ -579,7 +579,7 @@ th, td, input, select, .paragraph-tittle{
         justify-content: center;
     }
     .run-extra-text-sec .extra-run-btn {
-        padding: 16px 100px;
+        padding: 16px 80px;
     }
     .run-extra-text-sec{
         padding: 22px;
@@ -593,6 +593,7 @@ th, td, input, select, .paragraph-tittle{
     /* Our feature */
     .our-feature-sec{
         flex-direction: column;
+        gap: 10px;
     }
     .our-feature-right-sec{
         grid-template-columns: repeat(1,1fr);
