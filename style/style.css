@@ -228,10 +228,11 @@ th, td, input, select, .paragraph-tittle{
     margin-top: 34px;
 }
  .run-extra-img-sec{
-    width: 45%;
+    width: 43%;
     border-radius: 60px;
     padding: 30px;
-    object-fit: cover;
+    object-fit: none;
+    object-position: 70% 34%;
 }
 /* end extra mile section */
 
@@ -358,6 +359,12 @@ th, td, input, select, .paragraph-tittle{
     border: none;
     padding: 12px 40px;
 }
+.calculate-your-bmi select{
+    border-right: 16px solid transparent;
+}
+.calculate-your-bmi select option{
+    background: rgba(0, 0, 0, 0.4);
+}
 /* BMI section end */
 
 /* Meet our team */
@@ -373,6 +380,7 @@ th, td, input, select, .paragraph-tittle{
     height: 100%;
     object-fit: cover;
     border-radius: 18px;
+    filter: brightness(0.8);
 }
 .meet-our-img-sec{
     border-radius: 18px;
@@ -590,6 +598,7 @@ th, td, input, select, .paragraph-tittle{
         padding: 0;
         border-radius: 16px;
         padding-bottom: 20px;
+        object-fit: cover;
     }
     /* Our feature */
     .our-feature-sec{
