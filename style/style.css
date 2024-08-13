@@ -492,6 +492,7 @@ input::placeholder{
     grid-template-columns: repeat(3,1fr);
     gap: 100px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
 }
 .footer-sub-info{
     margin-bottom: 60px;
