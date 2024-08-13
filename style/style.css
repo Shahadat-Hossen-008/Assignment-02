@@ -7,6 +7,7 @@
 body{
     font-family: "Inter", sans-serif;
     background-color: rgb(17, 17, 17);
+    max-width: 100%;
 }
 @font-face{
     font-family: designFont;
@@ -25,7 +26,16 @@ a{
     font-weight: 900;
     margin-bottom: 14px;
 }
-th, td, input, select, .paragraph-tittle{
+th{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+
+ td, select, .paragraph-tittle{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
@@ -92,7 +102,7 @@ th, td, input, select, .paragraph-tittle{
 .banner-section{
     justify-content: space-between;
     align-items: center;
-    gap: 167px;
+    gap: 160px;
 
 }
 .banner-heading{
@@ -132,7 +142,7 @@ th, td, input, select, .paragraph-tittle{
     gap: 8px;
     position: absolute;
     top: 558px;
-    right: 330px;
+    right: 320px;
     cursor: pointer;
 }
 .video-tutorial .video-tutorial-num{
@@ -154,8 +164,8 @@ th, td, input, select, .paragraph-tittle{
     backdrop-filter: blur(5px);
     background: rgba(255, 255, 255, 0.1);
     position: absolute;
-    top: 275px;
-    right: 30px;
+    top: 295px;
+    right: 10px;
 }
 .free-workout .free-workout-num{
     font-size: 2.3rem;
@@ -325,7 +335,7 @@ th, td, input, select, .paragraph-tittle{
 }
 .bmi-calculate-sec{
     justify-content: space-between;
-    gap: 170px;
+    gap: 150px;
 }
 .bmi-calculate-sec table, tr,td,th{
     border: 1px solid
@@ -358,7 +368,7 @@ th, td, input, select, .paragraph-tittle{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     border: none;
-    padding: 12px 40px;
+    padding: 8px 12px;
 }
 .calculate-your-bmi select{
     border-right: 16px solid transparent;
@@ -633,7 +643,6 @@ th, td, input, select, .paragraph-tittle{
     }
     .calculate-your-bmi form input, select{
         width: 100%;
-        padding: 10px 20px;
     }
     .input-section{
         width: 100%;
